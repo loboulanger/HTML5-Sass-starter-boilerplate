@@ -1,3 +1,75 @@
-// -----------------------------------------------------------------------------
-// Here are all styles for the header.
-// -----------------------------------------------------------------------------
+/* Section hero */
+header.hero {
+  height:100vh;
+  background-image: url(../images/pexels-photo-699558.jpeg);
+  background-size: cover;
+  background-position-y: 100%;
+  nav {
+    background-color: #e6e6e6;
+    > a {
+      color: black;
+      padding: 1.75rem 2.25rem 1.75rem 1.25rem;
+    }
+    .nav-link, .btn {
+      margin: 0 1rem;
+      padding: 0.5rem 1.25rem;
+    }
+    a {
+      color: black;
+      transition: all 420ms cubic-bezier(.165,.84,.44,1);
+    }
+    a:hover {
+      color: #99c355;
+    }
+    .btn {
+      border-color: black;
+      margin-right: 2rem;
+    }
+    .btn:hover {
+      border-color: #99c355;
+    }
+  }
+}
+.hero-content {
+  color: #e6e6e6;
+  .row {
+    height: 75vh;
+    h1 + p {
+      margin-top: 2rem;
+      margin-bottom: 2.5rem;
+    }
+    .btn {
+      color: inherit;
+      font-weight: 500;
+      background-color: #99c355;
+      border-color: #99c355;
+      margin-bottom: 1rem;
+      padding: 1.5rem 3.75rem;
+      text-transform: uppercase !important;
+      transition: all 420ms cubic-bezier(.165,.84,.44,1);
+    }
+    .btn:hover {
+      color: inherit;
+      background-color: #2b4b3b;
+      border-color: #2b4b3b;
+    }
+    a {
+      color: #99c355;
+      border-bottom: 1px solid #99c355;
+    }
+    a:hover {
+      text-decoration: none;
+    }
+  }
+}
+/* Setting the navbar search --> À REPLACER DANS SECTION HERO */
+.search-navbar {
+  color: #4d4d4d;
+  margin-right: auto;
+  border-left: 1px solid;
+  padding: 1rem 1.5rem;
+}
+.ion-ios-search {
+  font-size: 1.4em;
+  padding-right: 1rem;
+}

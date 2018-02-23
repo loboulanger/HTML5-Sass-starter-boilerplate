@@ -1,3 +1,46 @@
-// -----------------------------------------------------------------------------
-// Here are basic typography style.
-// -----------------------------------------------------------------------------
+html {
+  font-size: 62.5%;
+}
+// Global font
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+// Font for titles
+h1, h2, h3, h4, h5, h6, .stat-number {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+@import '../vendors/mathsass/math';
+@import '../vendors/modularscale/modularscale';
+
+/* Modular scale basic set up */
+$modularscale: (
+  base: 1.7rem,
+  ratio: 1.25
+);
+
+// Font size for elements
+nav, .text-small {
+  font-size: ms(-1);
+}
+p {
+  font-size: ms(0);
+}
+.title {
+  font-size: ms(1);
+}
+.stat-number {
+  font-size: ms(5);
+}
+h1 {
+  font-size: ms(6);
+}
+h2 {
+  font-size: ms(4);
+}
+h3 {
+  font-size: ms(3);
+}

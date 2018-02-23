@@ -1,9 +1,7 @@
-@charset 'UTF-8';
+@import 'base/fonts';
+@import 'base/typography';
 
-@import 'base/global';
-@import 'components/global';
-@import 'layout/global';
-@import 'pages/global';
-@import 'themes/global';
-@import 'utils/global';
-@import 'vendors/global';
+@import 'layout/header';
+@import 'layout/main';
+
+@import 'utils/variables';

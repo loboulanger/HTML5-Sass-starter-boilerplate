@@ -1,0 +1,21 @@
+/* Section hero */
+header.hero {
+  height: 100vh;
+  background-image: url(../images/pexels-photo-699558.jpeg);
+  background-size: cover;
+  background-position-y: 100%; }
+
+.hero-content .row {
+  height: 80vh; }
+
+/* Setting the navbar search */
+.search-navbar {
+  margin-right: auto;
+  margin-left: 20px;
+  padding-left: 15px;
+  border-left: 1px solid;
+  min-height: 35px; }
+
+.ion-ios-search {
+  font-size: 25px;
+  padding-right: 10px; }
